@@ -10,17 +10,17 @@ AES-GCM-Image-Cipher-GUI/
 │
 ├── core/
 │   ├── __init__.py
-│   └── crypto.py          ← Sirf crypto logic (GUI se alag)
+│   └── crypto.py          ← crypto logic 
 │
 ├── gui/
 │   ├── __init__.py
 │   ├── app.py             ← Main window + sidebar layout
-│   ├── sidebar.py         ← Left navigation (Encrypt / Decrypt / About)
+│   ├── sidebar.py         ← Left navigation
 │   ├── encrypt_tab.py     ← Encrypt tab
 │   ├── decrypt_tab.py     ← Decrypt tab
 │   └── about_tab.py       ← Crypto details + disclaimer
 │
-├── assets/                ← Screenshots yahan daalo
+├── assets/                ← Screenshots 
 ├── main.py                ← Entry point
 ├── requirements.txt
 └── README.md
